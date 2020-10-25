@@ -1,0 +1,57 @@
+:root {
+  /* COLORS */
+  --color-primary: #6fb2e0;
+  --color-header: #333333;
+  --color-link: #8888ee;
+  --color-border: rgba(0, 0, 0, 0.25);
+  --color-button-hover: salmon;
+  --white: white;
+
+  /* FONTS */
+  --font-body: Helvetica, Arial, sans-serif;
+  --font-header: Georgia, serif;
+
+  /* SPACING */
+  --spacing-base: 0.8rem;
+  --spacing-1: calc(var(--spacing-base) * 1);
+  --spacing-2: calc(var(--spacing-base) * 2);
+  --spacing-3: calc(var(--spacing-base) * 3);
+  --spacing-4: calc(var(--spacing-base) * 4);
+  --spacing-5: calc(var(--spacing-base) * 5);
+  --spacing-6: calc(var(--spacing-base) * 6);
+  --spacing-7: calc(var(--spacing-base) * 7);
+  --spacing-8: calc(var(--spacing-base) * 8);
+  --spacing-9: calc(var(--spacing-base) * 9);
+  --spacing-10: calc(var(--spacing-base) * 10);
+  --spacing-11: calc(var(--spacing-base) * 11);
+  --spacing-12: calc(var(--spacing-base) * 12);
+
+  /* TYPOGRAPHY */
+  --fs-base: 62.5%;
+  --fs-normal: 1.6rem;
+  --lh-normal: 1.2;
+  --ls-normal: 0.02rem;
+  --header-weight: bold;
+  --header-lh: 1.5;
+  --header-ls: 0.25rem;
+  --header-align: center;
+  --h1-size: 6rem;
+  --h2-size: 4rem;
+  --h3-size: 2rem;
+  --h4-size: 1.8rem;
+  --p-size: 1.6rem;
+  --p-lh: 1.2;
+  --p-ls: 0.2rem;
+  --p-mb: var(--spacing-2);
+
+  /* BORDERS */
+  --radius-sm: 2px;
+  --radius: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --border: 1px solid var(--color-border);
+
+  /* SHADOWS */
+  --box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
