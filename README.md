@@ -7,7 +7,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Babel module resolvers
 - Husky/Lint-Staged
 
-To the development server:
+To start the development server:
 
 ```bash
 yarn dev
